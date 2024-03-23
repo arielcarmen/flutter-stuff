@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_stuff/constants/theme.dart';
 import 'package:flutter_stuff/widgets/main_drawer.dart';
 
 void main() {
-  runApp(const MaterialApp(
+  runApp(MaterialApp(
+    theme: AppTheme.lightTheme,
+    themeMode: ThemeMode.light,
     home: Stuff(),
   ));
 }

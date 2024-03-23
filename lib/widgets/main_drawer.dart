@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_stuff/tutorials/sqlite_testing.dart';
+import 'package:flutter_stuff/views/tutorials.dart';
 import 'package:flutter_stuff/widgets/main_drawer_item.dart';
+
+import '../views/designs.dart';
 
 class MainDrawer extends StatelessWidget {
   const MainDrawer({super.key});
@@ -10,15 +12,19 @@ class MainDrawer extends StatelessWidget {
     const padding = EdgeInsets.symmetric(horizontal: 20);
     return Drawer(
       child: Material(
-        color: Colors.greenAccent,
         child: ListView(
           padding: padding,
           children: const [
             SizedBox(height: 50,),
             MainDrawerItem(
-              text: "Tips",
-              icon: Icons.ice_skating,
-              page: SQLiteTutorial(),
+              text: "Designs",
+              icon: Icons.design_services,
+              page: Designs(),
+            ),
+            MainDrawerItem(
+              text: "Tutorials",
+              icon: Icons.tips_and_updates_outlined,
+              page: Tutorials(),
             ),
           ],
         ),
