@@ -11,13 +11,18 @@ class MainDrawerItem extends StatelessWidget {
   Widget build(BuildContext context) {
     const color = Colors.white;
     const hoverColor = Colors.white70;
-    return ListTile(
-      leading: Icon(icon, color: color),
-      title: Text(text, style: const TextStyle(color: color),),
-      hoverColor: hoverColor,
-      onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context) => page));
-      },
+    return Container(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(10)
+      ),
+      child: ListTile(
+        leading: Icon(icon, color: color),
+        title: Text(text, style: const TextStyle(color: color),),
+        hoverColor: hoverColor,
+        onTap: (){
+          Navigator.push(context, MaterialPageRoute(builder: (context) => page));
+        },
+      ),
     );
   }
 }
