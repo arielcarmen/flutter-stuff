@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_stuff/tutorials/sqlite_testing.dart';
 import 'package:flutter_stuff/widgets/main_drawer_item.dart';
 
 class MainDrawer extends StatelessWidget {
@@ -17,6 +18,7 @@ class MainDrawer extends StatelessWidget {
             MainDrawerItem(
               text: "Tips",
               icon: Icons.ice_skating,
+              page: SQLiteTutorial(),
             ),
           ],
         ),
