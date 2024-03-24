@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_stuff/constants/colors.dart';
 import 'package:flutter_stuff/views/tutorials.dart';
 import 'package:flutter_stuff/widgets/main_drawer_item.dart';
 
@@ -12,6 +13,7 @@ class MainDrawer extends StatelessWidget {
     const padding = EdgeInsets.symmetric(horizontal: 20);
     return Drawer(
       child: Material(
+        color: ThemeColor.stuff,
         child: ListView(
           padding: padding,
           children: const [

@@ -12,10 +12,10 @@ class MainDrawerItem extends StatelessWidget {
     const color = Colors.white;
     const hoverColor = Colors.white70;
     return Container(
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(10)
-      ),
       child: ListTile(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(10)
+        ),
         leading: Icon(icon, color: color),
         title: Text(text, style: const TextStyle(color: color),),
         hoverColor: hoverColor,
