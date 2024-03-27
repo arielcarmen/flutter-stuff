@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_stuff/constants/theme.dart';
+import 'package:flutter_stuff/widgets/code_zone.dart';
 import 'package:flutter_stuff/widgets/main_drawer.dart';
+import 'package:flutter_stuff/widgets/tutorial_title.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -23,7 +25,14 @@ class Stuff extends StatelessWidget {
       ),
       drawer: const MainDrawer(),
       body: Container(
-
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            TutorialTile(title: 'Welcome',),
+            CodeZone(code: "print(\"Hello world\")"),
+          ],
+        ),
       ),
     );
   }

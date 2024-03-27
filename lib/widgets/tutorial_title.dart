@@ -9,9 +9,7 @@ class TutorialTile extends StatelessWidget {
     return Container(
       child: Text(
         title,
-        style: TextStyle(
-          fontSize: Theme.of(context).
-        ),
+        style: Theme.of(context).textTheme.titleLarge
       ),
     );
   }

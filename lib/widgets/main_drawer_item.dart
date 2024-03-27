@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_stuff/constants/constants.dart';
 import 'package:flutter_stuff/main.dart';
 
 class MainDrawerItem extends StatelessWidget {
@@ -14,7 +15,7 @@ class MainDrawerItem extends StatelessWidget {
     return Container(
       child: ListTile(
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(10)
+          borderRadius: BorderRadius.circular(BORDER_RADIUS)
         ),
         leading: Icon(icon, color: color),
         title: Text(text, style: const TextStyle(color: color),),
