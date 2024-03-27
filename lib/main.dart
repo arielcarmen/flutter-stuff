@@ -22,6 +22,9 @@ class Stuff extends StatelessWidget {
         centerTitle: false,
       ),
       drawer: const MainDrawer(),
+      body: Container(
+
+      ),
     );
   }
 }

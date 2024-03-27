@@ -6,9 +6,9 @@ class AppTheme {
     useMaterial3: false,
     primaryColor: ThemeColor.stuff,
     colorScheme: ColorScheme.fromSeed(seedColor: ThemeColor.stuff),
+    fontFamily: 'OpenSans',
     textTheme: TextTheme(
-      bodyText2: TextStyle(
-        fontFamily: 'MyCustomFont', // Use your custom font here
+      bodyMedium: TextStyle(
         fontSize: 16.0, // Adjust the font size as needed
       ),
     )
