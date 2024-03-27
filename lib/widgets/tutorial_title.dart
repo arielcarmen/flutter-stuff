@@ -6,10 +6,10 @@ class TutorialTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Center(
       child: Text(
         title,
-        style: Theme.of(context).textTheme.titleLarge
+        style: Theme.of(context).textTheme.titleMedium
       ),
     );
   }

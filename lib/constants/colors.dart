@@ -2,24 +2,24 @@ import 'package:flutter/material.dart';
 
 class ThemeColor{
   static const MaterialColor stuff = MaterialColor(_stuffPrimaryValue, <int, Color>{
-    50: Color(0xFFFFFAED),
-    100: Color(0xFFFFF4D1),
-    200: Color(0xFFFFECB3),
-    300: Color(0xFFFFE494),
-    400: Color(0xFFFFDF7D),
+    50: Color(0xFFE8F0F8),
+    100: Color(0xFFC5DAEE),
+    200: Color(0xFF9EC2E3),
+    300: Color(0xFF77AAD7),
+    400: Color(0xFF5A97CF),
     500: Color(_stuffPrimaryValue),
-    600: Color(0xFFFFD55E),
-    700: Color(0xFFFFCF53),
-    800: Color(0xFFFFCA49),
-    900: Color(0xFFFFC038),
+    600: Color(0xFF377DC0),
+    700: Color(0xFF2F72B9),
+    800: Color(0xFF2768B1),
+    900: Color(0xFF1A55A4),
   });
-  static const int _stuffPrimaryValue = 0xFFFFD966;
+  static const int _stuffPrimaryValue = 0xFF3D85C6;
 
   static const MaterialColor stuffAccent = MaterialColor(_stuffAccentValue, <int, Color>{
-    100: Color(0xFFFFFFFF),
+    100: Color(0xFFDAE9FF),
     200: Color(_stuffAccentValue),
-    400: Color(0xFFFFF5E1),
-    700: Color(0xFFFFEDC8),
+    400: Color(0xFF74ABFF),
+    700: Color(0xFF5B9CFF),
   });
-  static const int _stuffAccentValue = 0xFFFFFFFF;
+  static const int _stuffAccentValue = 0xFFA7CAFF;
 }

@@ -7,6 +7,7 @@ import 'package:flutter_stuff/widgets/tutorial_title.dart';
 
 void main() {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     theme: AppTheme.lightTheme,
     themeMode: ThemeMode.light,
     home: Stuff(),

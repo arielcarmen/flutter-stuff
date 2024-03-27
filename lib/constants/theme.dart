@@ -11,6 +11,18 @@ class AppTheme {
       bodyMedium: TextStyle(
         fontSize: 16.0, // Adjust the font size as needed
       ),
+      titleMedium: TextStyle(
+        fontSize: 26.0, //
+        fontWeight: FontWeight.w900, // Adjust the font size as needed
+      ),
+      bodySmall: TextStyle(
+        fontSize: 10.0, // Adjust the font size as needed
+      ),
+      labelSmall: TextStyle(
+        fontSize: 8.0, //
+        letterSpacing: 1,
+        fontWeight: FontWeight.bold, // Adjust the font size as needed
+      ),
     )
   );
 }
