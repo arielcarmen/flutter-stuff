@@ -27,7 +27,7 @@ class CodeZone extends StatelessWidget {
               color: CupertinoColors.systemGrey6,
               borderRadius: BorderRadius.circular(BORDER_RADIUS/2)
             ),
-            child: Text(
+            child: SelectableText(
               code,
               style: Theme.of(context).textTheme.bodySmall,
             ),

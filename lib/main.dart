@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_stuff/constants/theme.dart';
 import 'package:flutter_stuff/widgets/code_zone.dart';
+import 'package:flutter_stuff/widgets/function_explaining.dart';
 import 'package:flutter_stuff/widgets/main_drawer.dart';
 import 'package:flutter_stuff/widgets/tutorial_title.dart';
 
@@ -31,6 +32,7 @@ class Stuff extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             TutorialTile(title: 'Welcome',),
+            FunctionExplaining(title: "Showing text", explaining: "Print method is used to show text and data in general"),
             CodeZone(code: "print(\"Hello world\")"),
           ],
         ),
